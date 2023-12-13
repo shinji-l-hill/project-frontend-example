@@ -93,6 +93,7 @@ const Page = () => {
   if (yearElement.current) {
     const date = new Date();
     const year = date.getFullYear();
+    //231213修正
     yearElement.current.textContent = String(year);
   }
 
